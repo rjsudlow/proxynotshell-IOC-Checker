@@ -1,6 +1,6 @@
 # proxynotshell-IOC-Checker
 
-Powershell script used to check for IOC's based on community research and those provided by Microsoft:
+Powershell script used to check for IOC's for CVE-2022-41040 and CVE-2022-41082 based on community research and Microsoft:
 * [GTESC](https://gteltsc.vn/blog/warning-new-attack-campaign-utilized-a-new-0day-rce-vulnerability-on-microsoft-exchange-server-12715.html)
 * [The Sec Master](https://thesecmaster.com/how-to-mitigate-cve-2022-41040-a-0-day-ssrf-vulnerability-in-microsoft-exchange-server/)
 * [Double Puslar](https://doublepulsar.com/proxynotshell-the-story-of-the-claimed-zero-day-in-microsoft-exchange-5c63d963a9e9)
