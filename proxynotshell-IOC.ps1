@@ -167,7 +167,7 @@ function IOC-PostExploit {
   $CVE202241040_Post = @()
   foreach ($path in $KnownPaths) {
     foreach ($f in $MaliciousFiles) {
-      $CVE202241040_Post += Get-ChildItem -Path $path $f
+      $CVE202241040_Post += Get-ChildItem -Path $path $f -ErrorAction SilentlyContinue
     }
   }
 
