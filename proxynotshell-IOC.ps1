@@ -161,7 +161,7 @@ function IOC-PostExploit {
     "C:\Users\Public\",
     "C:\PerfLogs\",
     "C:\Program Files\Common Files\system\ado\"
-    #"$env:ExchangeInstallPath\V15\Logging\HttpProxy"
+    "$env:ExchangeInstallPath\V15\Logging\HttpProxy"
   )
 
   $CVE202241040_Post = @()
